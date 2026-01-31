@@ -15,63 +15,63 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 12%;
 
-    /* Navy Blue - Primary Brand Color (Trust & Strength) */
-    --primary: 215 50% 15%;
-    --primary-foreground: 210 40% 98%;
+    /* Cyan/Teal - Primary Brand Color (Matching Logo) */
+    --primary: 185 70% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Steel Grey - Secondary */
-    --secondary: 215 20% 93%;
-    --secondary-foreground: 215 25% 20%;
+    /* Grey - Secondary (Matching Logo Ovals) */
+    --secondary: 210 10% 90%;
+    --secondary-foreground: 210 15% 25%;
 
     /* Muted tones */
-    --muted: 215 15% 92%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 210 10% 92%;
+    --muted-foreground: 210 10% 45%;
 
-    /* Industrial Orange - Accent (Energy & Safety) */
-    --accent: 25 95% 53%;
+    /* Cyan Accent - Matching Logo */
+    --accent: 185 70% 40%;
     --accent-foreground: 0 0% 100%;
 
     /* Warning/Safety Yellow */
     --warning: 45 93% 47%;
-    --warning-foreground: 215 25% 12%;
+    --warning-foreground: 210 15% 12%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 88%;
-    --ring: 25 95% 53%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 185 70% 40%;
 
     --radius: 0.5rem;
 
     /* Custom Industrial Variables */
-    --navy: 215 50% 15%;
-    --navy-light: 215 40% 25%;
-    --charcoal: 215 25% 12%;
-    --steel: 215 15% 65%;
-    --industrial-orange: 25 95% 53%;
-    --safety-yellow: 45 93% 47%;
+    --navy: 185 70% 25%;
+    --navy-light: 185 60% 35%;
+    --charcoal: 210 15% 12%;
+    --steel: 210 10% 65%;
+    --industrial-orange: 185 70% 40%;
+    --safety-yellow: 185 50% 50%;
     --concrete: 210 10% 95%;
 
     /* Gradients */
-    --gradient-industrial: linear-gradient(135deg, hsl(215 50% 15%) 0%, hsl(215 40% 25%) 100%);
-    --gradient-steel: linear-gradient(180deg, hsl(215 15% 92%) 0%, hsl(215 20% 88%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(215 50% 12% / 0.95) 0%, hsl(215 40% 20% / 0.85) 100%);
+    --gradient-industrial: linear-gradient(135deg, hsl(185 70% 25%) 0%, hsl(185 60% 35%) 100%);
+    --gradient-steel: linear-gradient(180deg, hsl(210 10% 92%) 0%, hsl(210 15% 88%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(185 70% 20% / 0.95) 0%, hsl(185 60% 30% / 0.85) 100%);
 
     /* Shadows */
-    --shadow-industrial: 0 4px 20px -4px hsl(215 50% 15% / 0.15);
-    --shadow-card: 0 2px 12px -2px hsl(215 25% 12% / 0.08);
-    --shadow-elevated: 0 8px 30px -8px hsl(215 25% 12% / 0.12);
+    --shadow-industrial: 0 4px 20px -4px hsl(185 70% 25% / 0.15);
+    --shadow-card: 0 2px 12px -2px hsl(210 15% 12% / 0.08);
+    --shadow-elevated: 0 8px 30px -8px hsl(210 15% 12% / 0.12);
 
     /* Sidebar */
-    --sidebar-background: 215 50% 15%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 25 95% 53%;
+    --sidebar-background: 185 70% 25%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 185 70% 40%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 215 40% 25%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 215 40% 25%;
-    --sidebar-ring: 25 95% 53%;
+    --sidebar-accent: 185 60% 35%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 185 60% 35%;
+    --sidebar-ring: 185 70% 40%;
   }
 
   .dark {
@@ -84,24 +84,24 @@
     --popover: 215 25% 12%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 25 95% 53%;
+    --primary: 185 70% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 215 25% 18%;
+    --secondary: 210 15% 18%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 215 25% 18%;
-    --muted-foreground: 215 15% 60%;
+    --muted: 210 15% 18%;
+    --muted-foreground: 210 10% 60%;
 
-    --accent: 25 95% 53%;
+    --accent: 185 70% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 25% 20%;
-    --input: 215 25% 20%;
-    --ring: 25 95% 53%;
+    --border: 210 15% 20%;
+    --input: 210 15% 20%;
+    --ring: 185 70% 45%;
   }
 }
 
