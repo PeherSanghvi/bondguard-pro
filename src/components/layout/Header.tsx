@@ -45,8 +45,8 @@ export function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-primary/95 backdrop-blur-md shadow-industrial"
-          : "bg-primary"
+          ? "bg-charcoal/95 backdrop-blur-md shadow-industrial"
+          : "bg-charcoal"
       }`}
     >
       {/* Top Bar */}
@@ -144,7 +144,7 @@ export function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-primary border-t border-primary-foreground/10"
+            className="lg:hidden bg-charcoal border-t border-primary-foreground/10"
           >
             <div className="industrial-container py-4 space-y-1">
               {navigation.map((item) => (
