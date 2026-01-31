@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -66,9 +67,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-accent rounded-md flex items-center justify-center">
-              <span className="font-heading font-bold text-accent-foreground text-lg">SB</span>
-            </div>
+            <img src={logo} alt="Supreme Bonds Logo" className="h-12 w-auto" />
             <div className="hidden sm:block">
               <div className="font-heading font-bold text-primary-foreground text-lg leading-tight">
                 Supreme Bonds
