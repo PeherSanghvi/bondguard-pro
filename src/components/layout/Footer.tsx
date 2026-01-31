@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Facebook } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const footerLinks = {
   services: [
@@ -31,9 +32,7 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-accent rounded-md flex items-center justify-center">
-                <span className="font-heading font-bold text-accent-foreground text-lg">SB</span>
-              </div>
+              <img src={logo} alt="Supreme Bonds Logo" className="h-12 w-auto" />
               <div>
                 <div className="font-heading font-bold text-lg">Supreme Bonds</div>
                 <div className="text-primary-foreground/60 text-xs">Pvt Ltd</div>
